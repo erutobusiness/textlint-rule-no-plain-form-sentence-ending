@@ -26,6 +26,9 @@
   },
   "author": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "kuromojin": "^3.0.0"
   },
