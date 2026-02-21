@@ -1,0 +1,41 @@
+{
+  "name": "textlint-rule-no-plain-form-sentence-ending",
+  "version": "1.0.0",
+  "description": "textlint rule to detect plain form sentence endings in desumasu-style documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "biome check .",
+    "format": "biome check --write ."
+  },
+  "keywords": [
+    "textlint",
+    "textlint-rule",
+    "japanese",
+    "desumasu",
+    "dearu",
+    "plain-form"
+  ],
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erutobusiness/textlint-rule-no-plain-form-sentence-ending.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "kuromojin": "^3.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.13",
+    "mocha": "^10.0.0",
+    "textlint": "^13.0.0",
+    "textlint-tester": "^13.0.0"
+  },
+  "peerDependencies": {
+    "textlint": ">=13.0.0"
+  }
+}
