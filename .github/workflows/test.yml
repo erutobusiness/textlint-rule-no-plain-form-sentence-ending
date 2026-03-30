@@ -6,8 +6,12 @@ on:
       - main
   pull_request:
 
+permissions: {}
+
 jobs:
   test:
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
