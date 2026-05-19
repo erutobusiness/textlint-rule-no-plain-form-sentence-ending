@@ -1,7 +1,7 @@
 # textlint-rule-no-plain-form-sentence-ending
 
 [![npm](https://img.shields.io/npm/v/textlint-rule-no-plain-form-sentence-ending.svg)](https://www.npmjs.com/package/textlint-rule-no-plain-form-sentence-ending)
-[![test](https://github.com/erutobusiness/textlint-rule-no-plain-form-sentence-ending/actions/workflows/test.yml/badge.svg)](https://github.com/erutobusiness/textlint-rule-no-plain-form-sentence-ending/actions/workflows/test.yml)
+[![test](https://github.com/eruto-lint/textlint-rule-no-plain-form-sentence-ending/actions/workflows/test.yml/badge.svg)](https://github.com/eruto-lint/textlint-rule-no-plain-form-sentence-ending/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 textlint rule to detect plain form (常体) sentence endings in desumasu-style (敬体) documents.
